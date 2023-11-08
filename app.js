@@ -4,7 +4,7 @@ const resultEl = document.getElementById("result");
 
 function AgeCalculator() {
     const birthdayUser = birthdayEl.value;
-    if (birthdayUser === " ") {
+    if (birthdayUser === "") {
         alert("Please try again");
     } else {
         const age = GetAge(birthdayUser);
